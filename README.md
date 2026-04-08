@@ -46,7 +46,7 @@ Performs 3D segmentation and shape characterization of fungal microcolonies usin
 Workflow steps and parameters:
 
 - Signal enhancement & object detection
-  - Gamma: controls contrast via power-law transformation (>!1 enhances bright regions, <!1 enhances dark regions)
+  - Gamma: controls contrast via power-law transformation
   - Thresholding method: automatic segmentation method (e.g., Otsu, Triangle, Intermodes)
 - Noise reduction
   - Volume: removes objects below a size threshold
